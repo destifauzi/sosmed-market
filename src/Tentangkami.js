@@ -2,20 +2,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
-import Header from './components/Header';
-import Content from './components/Content';
+import Tentang from './components/Tentang';
 import Footer from './components/Footer';
 
-function App() {
+function Tentangkami() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Content />
-      <br/>
-      <Footer />
+        <Navbar />
+        <Tentang />
+        <Footer />
     </div>
   );
 }
 
-export default App;
+export default Tentangkami;

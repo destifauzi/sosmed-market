@@ -2,20 +2,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
-import Header from './components/Header';
-import Content from './components/Content';
+import Bayar from './components/Bayar';
 import Footer from './components/Footer';
 
-function App() {
+function Pembayaran() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Content />
-      <br/>
-      <Footer />
+        <Navbar />
+        <Bayar />
+        <Footer />
     </div>
   );
 }
 
-export default App;
+export default Pembayaran;
